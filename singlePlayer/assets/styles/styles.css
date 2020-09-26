@@ -1,0 +1,106 @@
+/* Classes */
+.bg-lightblue {
+	background-color: lightblue;
+}
+.bg-red {
+	background-color: red;
+}
+.bg-green {
+	background-color: green;
+}
+.size {
+	height: 200px;
+	width: 100vh;
+}
+.sizeBig {
+	width: 1350px;
+	height: 1000px;
+	margin: auto;
+}
+.rect-progress {
+	border-radius: 0px;
+}
+.good-btn {
+	height: 50px;
+	width: 100px;
+	border-radius: 10px;
+	border: 1px solid black;
+	background-color: black;
+	color: lightblue;
+}
+.margin-up {
+	margin-top: 80px;
+}
+.body-img {
+	width: 200px;
+	height: 200px;
+}
+.blast {
+	width: 50px;
+	height: 20px;
+	background-color: lightblue;
+	margin-top: 150px;
+	visibility: hidden;
+}
+.pad {
+	border-radius: 10px;
+}
+/* ID's */
+#attack-palett {
+	float: left;
+}
+#health-bar {
+	float: right;
+}
+#leftHealth {
+	width: 200px;
+	float: left;
+	margin-left: 50px;
+}
+#rightHealth {
+	width: 200px;
+	float: right;
+	margin-right: 50px;
+}
+#attack-palett {
+	display: flex;
+	justify-content: space-around;
+}
+#player-body-image {
+	background: url('../images/fist.png');
+}
+#monster-body-image {
+	background: url('../images/monster-fist.jpg');
+}
+#arena-left {
+	float: left;
+	display: flex;
+}
+#arena-right {
+	float: right;
+	display: flex;
+}
+/* Keyframes */
+
+@keyframes playerBlast {
+	0% {
+		visibility: visible;
+	}
+	5% {
+		margin-left: 850px;
+	}
+	6% {
+		visibility: hidden;
+	}
+}
+@keyframes monsterBlast {
+	0% {
+		visibility: visible;
+	}
+	5% {
+		margin-right: 850px;
+	}
+	6% {
+		visibility: hidden;
+	}
+}

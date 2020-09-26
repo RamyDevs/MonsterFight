@@ -1,0 +1,31 @@
+#container {
+	display: flex;
+	justify-content: space-around;
+}
+#mode {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn-bg {
+	width: 400px;
+	height: 400px;
+	background-color: lightblue;
+	border-radius: 10px;
+}
+.btn {
+	margin-top: 200px;
+	margin-left: 150px;
+	background-color: black;
+	width: 120px;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+.btn a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+.btn a:hover {
+	color: red;
+}

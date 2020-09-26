@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="assets/styles/styles.css" />
+		<title>Multiplayer</title>
+	</head>
+	<body>
+		<div id="attack-palett">
+			<div id="attack-palett-player1" class="attack-palett flex">
+				<h1 class="center">Player 1</h1>
+				<button id="player1-attack" class="btn">Attack</button>
+				<button id="player1-strong-attack" class="btn">Strong Attack</button>
+				<button id="player1-reset" class="btn">Reset</button>
+			</div>
+			<div id="attack-palett-play2" class="attack-palett flex">
+				<h1 class="center">Player 2</h1>
+				<button id="player2-attack" class="btn">Attack</button>
+				<button id="player2-strong-attack" class="btn">Strong Attack</button>
+				<button id="player2-reset" class="btn">Reset</button>
+			</div>
+		</div>
+		<div id="health-bar">
+			<div id="player-health-div">
+				<h1>Player 1:</h1>
+				<progress max="100" value="100" id="player1-health"></progress>
+			</div>
+			<div id="monster-health-div">
+				<h1>Player 2:</h1>
+				<progress max="100" value="100" id="player2-health"></progress>
+			</div>
+		</div>
+		<div id="arena">
+			<div id="arena-left">
+				<div id="player-1-body" class="player-body">
+					<div class="body-text-name">Player 1</div>
+				</div>
+			</div>
+			<div id="arena-right">
+				<div id="player-2-body" class="player-body">
+					<div class="body-text-name">Player 2</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/scripts/app.js"></script>
+	</body>
+</html>
